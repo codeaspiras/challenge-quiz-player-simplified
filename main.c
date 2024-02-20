@@ -19,9 +19,6 @@ int main()
     strcpy(perguntas[0], "Essa é a primeira pergunta...?");
     strcpy(opcoes[0][0], "Sim...?");
     strcpy(opcoes[0][1], "Não...?");
-    for (int i = 2; i < qtdMaximaOpcoes; i++) {
-        strcpy(opcoes[0][i], "");
-    }
     gabaritos[0] = 0;
     
     
@@ -29,9 +26,6 @@ int main()
     strcpy(perguntas[1], "Essa é a terceira pergunta...?");
     strcpy(opcoes[1][0], "Sim...?");
     strcpy(opcoes[1][1], "Não...?");
-    for (int i = 2; i < qtdMaximaOpcoes; i++) {
-        strcpy(opcoes[1][i], "");
-    }
     gabaritos[1] = 1;
     
     // rodar quiz
